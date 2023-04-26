@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "oceanft-1864f",
+    "default": "oceanft-nonprod-8c4c2",
     "prd": "oceanft-1864f",
     "stg": "oceanft-nonprod-8c4c2"
   },
