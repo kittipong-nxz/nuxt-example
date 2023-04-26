@@ -17,7 +17,7 @@ jobs:
 
    
 
-    if: ${{ startsWith(github.ref_name, 'main') }}
+    if: ${{ startsWith(github.ref_name, 'master') }}
 
     steps:
       - uses: actions/checkout@v3
@@ -45,7 +45,7 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     environment: prod
-    if: ${{ startsWith(github.ref_name, 'main') }}
+    if: ${{ startsWith(github.ref_name, 'master') }}
     steps:
       - uses: actions/checkout@v3
       
