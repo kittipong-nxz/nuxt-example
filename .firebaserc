@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "oceanft-1864f",
+    "prd": "oceanft-1864f",
+    "stg": "oceanft-nonprod-8c4c2"
+  },
+  "targets": {},
+  "etags": {}
+}
