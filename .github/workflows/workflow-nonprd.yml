@@ -7,7 +7,6 @@ name: Deploy to Firebase Hosting on PR
   push:
     branches:
       - develop
-
 jobs:
    build-and-deploy-nonprd:
     permissions:
@@ -15,7 +14,7 @@ jobs:
       contents: read
       pull-requests: write
     runs-on: ubuntu-latest
-    if: ${{ !startsWith(github.ref_name, 'develop') }}
+    if: ${{ startsWith(github.ref_name, 'develop') }}
     steps:
       - uses: actions/checkout@v3
       

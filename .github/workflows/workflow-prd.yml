@@ -38,6 +38,7 @@ jobs:
           channelId: prewview-prd
 
   build-and-deploy-prd:
+    needs: build-and-preview
     permissions:
       checks: write
       contents: read
