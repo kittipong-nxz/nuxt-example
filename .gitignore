@@ -12,3 +12,5 @@ dist
 
 # Netlify Setting
 .netlify
+
+.firebase
